@@ -1,0 +1,214 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    height: 100px;
+}
+
+.header-logo{
+    padding-left: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+.links-page{
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;    
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.link > a{
+    color: #c8c8c8;
+}
+
+
+.container-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    height: 400px;
+}
+
+.title{
+    max-width: 500px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title > h1 {
+    padding-top: 35px;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.title > p {
+    color: #c8c8c8;
+    font-size: 18px;
+}
+
+.title > button {
+    padding-top: 0px;
+    background-color: #3882F6;;
+    color: #ffffff;
+    font-weight: bold;
+    align-self: flex-start;
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.image-welcome > img {
+    max-width: 500px;
+    max-height: 400px;
+    margin-right: 180px;
+}
+
+
+
+
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.container-three > h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.images-clients {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.image-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-client > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: #3882F6; solid 4px;
+}
+
+.image-client > p {
+    font-size: 15px;
+    text-align: center;
+    color: #3a3939;
+    max-width: 200px;
+
+}
+
+.container-four {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #c8c8c8;
+}
+
+#quote{
+    align-self: center;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+
+#guru{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 250px;
+    margin-right: 300px;
+}
+
+.container-five{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    height: 130px;
+    color: #ffffff;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-text > h3 {
+    padding: 0px 200px;
+    margin-bottom: -15px;
+    font-size: 25px;
+}
+
+.sign-up-text > p{
+    padding: 0px 200px;
+}
+
+.sign-up-btn{
+    margin-right: 200px;
+}
+
+.sign-up-btn > button{
+    background-color: #3882F6;;
+    color: white;
+    border: white solid 3px;
+    border-radius: 5px;
+    padding: 3px 30px;
+    font-weight: bold;
+}
+
+.container-six {
+    max-height: 100px;
+    background-color: #000000;
+    color: #c8c8c8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
